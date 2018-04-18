@@ -17,6 +17,18 @@ Give an example
 
 ### Built With:
 Python
+- Libraries include:
+* numpy
+* pandas
+* scikit-learn
+* matplotlib
+* pyaudio
+* wave
+* google.cloud
+* pydub
+* sense_hat
+* time
+* AWSIoTPythonSDK
 
 
 ### Authors:
