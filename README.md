@@ -1,13 +1,13 @@
 # Iot Voice & Gesture Control System: Proof of concept implementation
 
 ### Getting Started:
-#### robot:
+#### Robot:
 This folder includes all the scripts that control the robot. 
 
-#### cloud:
+#### Cloud:
 This folder includes all the scripts that publish to the cloud. 
 
-#### machine learning:
+#### Machine learning:
 This folder includes all the scripts that include the preprocessing and the machine learning model. 
 
 #### main.py:
@@ -20,7 +20,7 @@ This script includes all the functions for the voice implementation as well as t
 * Google Voice API
 * USB Microphone
 * Makerfire 4-Wheel Car Chassis
-* L298N Motor Drive Conroller
+* L298N Motor Drive Controller
 * AWS IoT
 
 
