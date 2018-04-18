@@ -4,7 +4,13 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites:
-Raspberry pi
+* 2 x Raspberry Pi 3 
+* Sense HAT
+* Google Voice API
+* USB Microphone
+* Makerfire 4-Wheel Car Chassis
+* L298N Motor Drive Conroller
+* AWS IoT
 
 Give examples
 Installing
