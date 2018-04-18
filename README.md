@@ -1,13 +1,9 @@
-# seniorProject
+# Iot Voice & Gesture Control System: Proof of concept implementation
 
-senior project
-
-Iot Voice & Gesture Control System: Proof of concept implementation
-
-Getting Started:
+### Getting Started:
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites:
+### Prerequisites:
 Raspberry pi
 
 Give examples
@@ -19,11 +15,11 @@ End with an example of getting some data out of the system or using it for a lit
 
 Give an example
 
-Built With:
+### Built With:
 Python
 
 
-Authors:
+### Authors:
 Deja Jackson,
 Zoe Cesar,
 Amanda Norris,
@@ -32,9 +28,9 @@ Nathaniel Klein,
 Richmond Mensah
 
 
-License:
+### License:
 This project is not licensed
 
-Acknowledgments:
+### Acknowledgments:
 
 
