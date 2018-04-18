@@ -17,7 +17,7 @@ Give an example
 
 ### Built With:
 Python
-- Libraries include:
+-Libraries include:
 * numpy
 * pandas
 * scikit-learn
