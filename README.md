@@ -1,7 +1,17 @@
 # Iot Voice & Gesture Control System: Proof of concept implementation
 
 ### Getting Started:
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+#### robot:
+This folder includes all the scripts that control the robot. 
+
+#### cloud:
+This folder includes all the scripts that publish to the cloud. 
+
+#### machine learning:
+This folder includes all the scripts that include the preprocessing and the machine learning model. 
+
+#### main.py:
+This script includes all the functions for the voice implementation as well as the controls for whether a voice control or a gesture will be executed. 
 
 
 ### Prerequisites:
@@ -34,7 +44,7 @@ Python
 Deja Jackson,
 Zoe Cesar,
 Amanda Norris,
-Khadijah mahley,
+Khadijah Mahaley,
 Nathaniel Klein,
 Richmond Mensah
 
@@ -42,6 +52,7 @@ Richmond Mensah
 ### License:
 This project is not licensed
 
+
 ### Acknowledgments:
-
-
+* Dr. Mingon Kang
+* Dr. Selena He
