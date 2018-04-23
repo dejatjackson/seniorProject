@@ -10,6 +10,12 @@ This folder includes all the scripts that publish to the cloud.
 #### Machine learning:
 This folder includes all the scripts that include the preprocessing and the machine learning model. 
 
+#### Web Application
+This folder includes all the scripts that control the web application features. This is a bonus feature of this project.
+
+#### Computer Controls:
+This folder includes the script to control the computer. This is a bonus feature of this project. 
+
 #### main.py:
 This script includes all the functions for the voice implementation as well as the controls for whether a voice control or a gesture will be executed. 
 
