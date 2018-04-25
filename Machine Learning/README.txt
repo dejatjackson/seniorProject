@@ -1,7 +1,7 @@
 Machine Learning Scripts
 
-The Machine Learing Scripts include Preprocessing.py, ML_Modeling.py and New_Gesture.py. 
-Combined, these scripts work together to accurately recognize gestures performed using the
+The Machine Learning Scripts include Preprocessing.py, ML_Modeling.py and New_Gesture.py. 
+Combined, these scripts work together to recognize gestures performed using the
 Raspberry Pi 3. 
 _________________
 Python Libraries: 
@@ -9,31 +9,42 @@ Python Libraries:
 	pandas
 	Scikit-learn
 	Matplotlib
-	Pydub
-	Sense_hat
+	SenseHat
 	os
 	sys
 	time
 	datetime
-	RTMLIB
+	RTIMULib
 	csv
 	math
 	pickle
 	itertools
 
+	Scikit-learn Libraries:
+
+		svm
+		preprocessing
+		train_test_split
+		confusion_matrix
+		GridSearchCV
+		classification_report
+	
 _________________
 Preprocessing.py
 
-This script formats the data in the correct format to the Machine Learning model. 
+This script gathers gesture data and formats the data into the correct format.
+It was used initially to gather the data for training and testing the Machine Learning model.
+Once the Machine Learning model was created, the Preprocessing script can be used to gather new gestures. 
 
 _________________
 ML_Modeling.py
 
-This script contains the information with the Machine Learning Model.
-This model is saved as a pickle file on the Pi, so that the values can later be applied to new gestures. 
+This script learns on the initially gathered data and creates a Machine Learning model.
+This model is saved as a pickle file on the Raspberry Pi, so that the model can later be applied to new gestures. 
+
 _______________
-New_Gesture.py
+New_Gesture.py  
 
-This script corresponds a new gesture, if recognized, with a value and sends the message to a cloud. 
-
-	
+This script imports the new gesture data from the csv file created in the Preprocessing script and loads the model from the saved pickle file.
+It then applies the machine learning model to the new gesture data, corresponds the result of the machine learning with a numeric value representing the gesture, 
+and sends the value as a message to the cloud.
